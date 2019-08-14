@@ -1,0 +1,32 @@
+{
+  "name": "kanmii-vscode-elixir-snippets",
+  "displayName": "Kanmii Vscode elixir Snippets",
+  "description": "Code snippets for Elixir",
+  "version": "0.0.1",
+  "publisher": "kanmii",
+  "license": "MIT",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanmii/vscode-elixir-snippets"
+  },
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "galleryBanner": {
+    "color": "#99424f",
+    "theme": "light"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "elixir",
+        "path": "./snippets/elixir.json"
+      }
+    ]
+  },
+  "devDependencies": {}
+}
